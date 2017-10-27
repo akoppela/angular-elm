@@ -1,0 +1,24 @@
+{
+  "name": "angular-elm",
+  "version": "1.0.0",
+  "description": "Partner dance of Angular and Elm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akoppela/angular-elm.git"
+  },
+  "scripts": {
+    "start": "brunch watch -s",
+    "update": "npm prune && npm install && bower prune && bower update && elm package install"
+  },
+  "author": "Andrey Koppel (akoppela)",
+  "license": "ISC",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "before-brunch": "0.0.5",
+    "bower": "^1.8.2",
+    "brunch": "^2.10.10",
+    "elm": "^0.18.0",
+    "elm-brunch": "^0.9.0",
+    "elm-format": "^0.7.0-exp"
+  }
+}
